@@ -1,0 +1,260 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left{
+  display: flex;
+}
+
+.left img{
+  display: inline;
+  width: 100px;
+  cursor: pointer;
+}
+
+.right ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.right ul li a{
+  text-decoration: none;
+  color: black;
+  margin: 2vw;
+  font-family: 'Overpass', sans-serif;
+}
+
+.right ul li a:hover{
+  text-decoration: none;
+  color: #ff9b22;
+  margin: 2vw;
+  font-family: 'Overpass', sans-serif;
+  
+}
+
+.right{
+  display: flex;
+  align-items: center;
+  padding-right: 3vw;
+}
+
+.btn{
+  margin: 1vw;
+  border: 2px solid #ff9b22;
+  background: none;
+  border-radius: 16px;
+  padding: 8px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  margin: 1vw;
+  border: 2px solid #ff9b22;
+  background: #ff9b22;
+  border-radius: 16px;
+  padding: 8px;
+  font-size: 10px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.search-box{
+  border: 2px solid #ff9b22;
+  background: none;
+  border-radius: 16px;
+  padding: 8px;
+  font-size: 10px;
+}
+
+.content{
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3vw;
+  position: relative;
+  z-index: 1;
+}
+
+.content::after{
+  content: "";
+  background-image: url('../imgs/11.svg');
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.09;
+}
+
+.con-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5px;
+}
+
+.con-left h2{
+  padding: 5px;
+  font-family: 'Padauk', sans-serif;
+}
+
+.con-left p{
+  padding: 5px;
+  padding-top: 0px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.con-right{
+  display: flex;
+  margin-top: 4vw;
+  align-items: center;
+  padding-right: 1vw;
+  padding-bottom: 3vw;
+}
+
+.con-right img{
+  width: 30vw;
+  border: 2px solid #ff9b22;
+  border-radius: 14vw;
+  z-index: 1;
+}
+
+.article{
+  background-color: antiquewhite;
+}
+
+.article h2{
+  padding: 1vw;
+}
+
+/* Box 1 Editing */
+
+.box{
+  display: flex;
+  height: 14vw;
+  padding: 1vw;
+}
+
+.box img{
+  width: 15vw;
+}
+
+.boxtext{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3vw;
+}
+
+.boxtext h3{
+  font-family: 'Padauk', sans-serif;
+}
+
+.boxtext h3 a{
+  text-decoration: none;
+  color: black;
+}
+
+.boxtext h3 a:hover{
+  text-decoration: none;
+  color:#ff9b22;
+}
+
+.boxtext p{
+  font-family: 'Mali', cursive;
+  font-size: .7rem;
+}
+
+.summary{
+  font-size: .9rem;
+  padding-top: .2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.foot{
+  width: 100%;
+  height: 8vh;
+  background-color: rgb(218, 177, 124);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Overpass', sans-serif;
+  margin-top: 1vw;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.foot p{
+  font-family: 'Overpass', sans-serif;
+  font-size: 1vw;
+}
+
+.foot span{
+  font-family: 'Overpass', sans-serif;
+  font-size: 1vw;
+}
+
+
+.formbox{
+  height: 66.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.forminput{
+  padding-top: 1vw;
+}
+.forminput p{
+  font-family: 'Padauk', sans-serif;
+}
+
+.forminput input{
+  width: 35rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-family: 'Padauk', sans-serif;
+  border: 1px solid #ff9b22;
+  padding-left: 0.5vw;
+  border-radius: 5px;
+}
+
+.formbox h2{
+  font-family: 'Overpass', sans-serif;
+  margin-top: 1vw;
+  font-size: 2rem;
+}
+
+
+.btn2{
+  margin-top: 1.5rem;
+  border: 2px solid #ff9b22;
+  background: none;
+  border-radius: 16px;
+  font-size: 1rem;
+  align-self: center;
+  cursor: pointer;
+  width: 12rem;
+  height: 3rem;
+}
+
+.btn2:hover{
+  margin-top: 1.5rem;
+  border: 2px solid #ff9b22;
+  background: #ff9b22;
+  border-radius: 16px;
+  padding: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.7s;
+}

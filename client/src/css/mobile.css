@@ -1,0 +1,119 @@
+@media screen and (max-width: 700px){
+
+    .navbar{
+        flex-direction: column;
+    }
+    .left{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        justify-content: center;
+        padding-right: 0vw;
+    }
+    .con-left h2 {
+        font-family: 'Padauk', sans-serif;
+        font-size: 1.5rem;
+    }
+    .con-left p {
+        
+        font-size: 1rem;
+    }
+    .con-right {
+        display: none;
+    }
+
+    .article{
+        overflow: hidden;
+        padding-bottom: 10vw;
+    }
+    .article h2{
+        font-size: 5vw;
+    }
+
+    /* Box1 */
+    .box{
+        display: flex;
+        height: 12rem;
+        padding: 1vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8vw;
+    }
+
+    .box img {
+        width: 25vw;
+    }
+
+    .boxtext{
+        align-items: center;
+    }
+    .boxtext p{
+        font-size: 2.5vw;
+    }
+
+    .boxtext h3{
+        padding-top: 4px;
+        margin-top: 4px;
+        font-size: 4vw;
+    }
+
+
+
+    /* Contact Page Edit */
+    .formbox h2 {
+        font-size: 1.5rem;
+        /* margin-left: -3vw; */
+    }
+    .forminput p {
+        font-size: 1rem;
+    }
+    .forminput input{
+        font-size: 1rem;
+        width: 18rem;
+    }
+    .btn2{
+        width: 8rem;
+        margin-top: 1rem;
+    }
+
+    .formbox{
+        align-items: center;
+        background-color: antiquewhite;
+        height: 80vh;
+    }
+
+    /* Article1 Edit */
+
+   
+    .center h2 {
+        margin-top: 3vw;
+        font-size: 5vw;
+    }
+    .center img {
+        width: 36vw;
+        margin-top: 1vw;
+    }
+
+    .article-content p{
+        font-size: 3vw;
+    }
+
+    .article-content h4{
+        font-size: 3.8vw;
+    }
+
+    .article-content ul li{
+        font-size: 2.8vw;
+    }
+
+    .foot{
+        height: 2rem;
+    }
+    .foot p, .foot span{
+        font-size: .65rem;
+    }
+
+}
+
