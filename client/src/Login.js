@@ -1,5 +1,4 @@
 import React, { useContext } from 'react'
-import Footer from './Footer'
 import { useState } from 'react';
 import { Navigate } from 'react-router-dom';
 import { UserContext } from './UserContext';
@@ -66,7 +65,6 @@ const Login = () => {
         </div>
       </form>
       </>
-      <Footer/>
     </div>
   )
 }

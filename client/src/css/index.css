@@ -137,12 +137,14 @@
 
 .box{
   display: flex;
+  align-items: center;
   height: 14vw;
   padding: 1vw;
 }
 
 .box img{
-  width: 15vw;
+  width: 18vw;
+  margin-left: 1rem;
 }
 
 .boxtext{
@@ -186,11 +188,6 @@
   justify-content: center;
   align-items: center;
   font-family: 'Overpass', sans-serif;
-  margin-top: 1vw;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 50px;
 }
 
 .foot p{
@@ -205,7 +202,7 @@
 
 
 .formbox{
-  height: 66.5vh;
+  /* height: 66.5vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -229,6 +226,20 @@
   border-radius: 5px;
 }
 
+.quillInput{
+  width: 35rem;
+  /* height: 15.6rem; */
+  font-size: 1rem;
+  font-family: 'Padauk', sans-serif;
+  border: 1px solid #ff9b22;
+  /* padding-left: 0.5vw; */
+  border-radius: 5px;
+}
+
+.file{
+  padding-top: 1.5rem;
+}
+
 .formbox h2{
   font-family: 'Overpass', sans-serif;
   margin-top: 1vw;
@@ -246,6 +257,7 @@
   cursor: pointer;
   width: 12rem;
   height: 3rem;
+  margin-bottom: 7.5rem;
 }
 
 .btn2:hover{
@@ -258,3 +270,72 @@
   cursor: pointer;
   transition: 0.7s;
 }
+
+.article1{
+  background-color: antiquewhite;
+}
+
+.center h2{
+  /* margin-top: 1vw; */
+  font-size: 2rem;
+}
+
+.center img{
+  width: 30vw;
+  margin-top: 1vw;
+  
+}
+
+.article1 .center h2{
+  margin-top: 1vw;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.article-content{
+  padding: 3vw;
+  display: flex;
+  justify-content: center;
+}
+
+.content2{
+  font-size: 1.2rem;
+  margin: 0 2rem 0 2rem;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.author, .author span{
+  font-family: 'Mali', cursive;
+  font-size: .9rem;
+}
+
+.middle{
+  display: flex;
+  justify-content: center;
+}
+
+.shim-box{
+  height: 13rem;
+  display: flex;
+  align-items: center;
+}
+.shim-img{
+  height: 10rem;
+  width: 14rem;
+  background-color: gray;
+  margin-left: 2rem;
+}
+.lines{
+  display: flex;
+  flex-direction: column;
+}
+.line{
+  width: 30rem;
+  height: .7rem;
+  background-color: grey;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+
+

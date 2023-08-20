@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
-import Footer from './Footer'
+import { Navigate } from 'react-router-dom';
 
 const Register = () => {
   const[username, setUsername] = useState("");
   const[password, setPassword] = useState("");
+  const[redirect, setRedirect] = useState(false);
 
   async function register(e){
     e.preventDefault();
@@ -14,19 +15,24 @@ const Register = () => {
     });
 
     if (response.status===200) {
-      alert("Registration Successful! You can now Login")
+      alert("Registration Successful! You can now Login");
+      setRedirect(true);
     } else {
       alert("Username already exists!!! Kindly change your Username");
     }
+  }
+
+  if (redirect) {
+    return <Navigate to={'/login'}/>
   }
 
   return (
     <div>
       <>
       <form onSubmit={register}>
-        <div class="formbox m-auto max-width">
+        <div className="formbox m-auto max-width">
           <h2><u>REGISTER</u></h2>
-          <div class="forminput">
+          <div className="forminput">
             <p>Username : </p>
             <input 
               type="text" 
@@ -38,7 +44,7 @@ const Register = () => {
               />
           </div>
 
-          <div class="forminput">
+          <div className="forminput">
             <p>Password : </p>
             <input 
               type="password" 
@@ -49,11 +55,10 @@ const Register = () => {
               }} 
               />
           </div>
-          <button class="btn2">Submit</button>
+          <button className="btn2">Submit</button>
         </div>
       </form>
       </>
-      <Footer/>
     </div>
   )
 }

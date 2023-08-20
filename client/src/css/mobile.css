@@ -43,7 +43,7 @@
     }
 
     .box img {
-        width: 25vw;
+        width: 11rem;
     }
 
     .boxtext{
@@ -73,6 +73,15 @@
         font-size: 1rem;
         width: 18rem;
     }
+    .quillInput{
+        width: 18rem;
+        font-size: 1rem;
+        font-family: 'Padauk', sans-serif;
+        border: 1px solid #ff9b22;
+        /* padding-left: 0.5vw; */
+        border-radius: 5px;
+        background-color: white;
+      }
     .btn2{
         width: 8rem;
         margin-top: 1rem;
@@ -92,12 +101,12 @@
         font-size: 5vw;
     }
     .center img {
-        width: 36vw;
-        margin-top: 1vw;
+        width: 60vw;
+        margin-top: 3vw;
     }
 
     .article-content p{
-        font-size: 3vw;
+        font-size: 0.7rem;
     }
 
     .article-content h4{
@@ -105,8 +114,13 @@
     }
 
     .article-content ul li{
-        font-size: 2.8vw;
+        font-size: 0.7rem;
     }
+
+    .article1 .center h2{
+        margin-top: 3vw;
+        font-size: 1rem;
+    } 
 
     .foot{
         height: 2rem;
@@ -115,5 +129,22 @@
         font-size: .65rem;
     }
 
+    .shim-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* margin-top: 1rem; */
+    }
+    .shim-img{
+        width: 10rem;
+        height: 15rem;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    .line{
+        width: 10rem;
+        margin-left: 0;
+    }
 }
 
