@@ -11,7 +11,7 @@ const Login = () => {
 
   async function login(ev) {
     ev.preventDefault();
-    const response = await fetch("https://iblog-dz12.onrender.com//login",{
+    const response = await fetch("https://iblog-dz12.onrender.com/login",{
       method:'POST',
       body: JSON.stringify({username,password}),
       headers: {'Content-type' : 'application/json'},
