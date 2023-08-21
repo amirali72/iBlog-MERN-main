@@ -26,7 +26,7 @@ const PostPage = () => {
                 <span className='author'> by @{postInfo.author.username} | </span>
                 <time>{formatISO9075(new Date(postInfo.createdAt))}</time>
             </p>
-           <img src={`http://localhost:4000/${postInfo.cover}`} alt="error"/>
+           <img src={`https://iblog-dz12.onrender.com/${postInfo.cover}`} alt="error"/>
         </div>
 
         <div className="article-content">
