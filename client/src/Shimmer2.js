@@ -1,6 +1,5 @@
 import React from 'react'
 import LandingPage from './LandingPage'
-import gif from './imgs/load.gif'
 
 const Shimmer2 = () => {
     return (
