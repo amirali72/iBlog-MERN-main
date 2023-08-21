@@ -9,7 +9,7 @@ const Post = ({_id, title, summary, cover, content, createdAt, author}) => {
     <div className="article max-width m-auto">
         <div className="box">
             <Link to={`/post/${_id}`}>
-            <img src={'https://iblog-dz12.onrender.com/'+cover} alt="err"/>
+            <img src={'http://localhost:4000/'+cover} alt="err"/>
             </Link>
             <div className="boxtext">
                 <h3> <Link to={`/post/${_id}`}>{title}</Link>

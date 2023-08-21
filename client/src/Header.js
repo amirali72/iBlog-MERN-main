@@ -6,7 +6,7 @@ import { UserContext } from './UserContext';
 const Header = () => {
   const {userInfo, setUserInfo} = useContext(UserContext);
   useEffect(()=>{
-    fetch('https://iblog-dz12.onrender.com/profile',{
+    fetch('http://localhost:4000/profile',{
       credentials:'include',
     }).then(response=>{
       response.json().then(userInfo=>{
@@ -16,7 +16,7 @@ const Header = () => {
   },[setUserInfo])
 
   function logout(){
-      fetch('https://iblog-dz12.onrender.com/logout',{
+      fetch('http://localhost:4000/logout',{
       credentials:'include',
       method:'POST',
     });
